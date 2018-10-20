@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.yoga.android.YogaLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:yoga="http://schemas.android.com/apk/res-auto"
+    yoga:yg_flexDirection="column">
+
+    <TextView
+        yoga:yg_width="auto"
+        yoga:yg_height="auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        yoga:yg_alignContent="center"
+        yoga:yg_alignItems = "center"
+        android:id="@+id/contact_name"
+        />
+</com.facebook.yoga.android.YogaLayout>
+
